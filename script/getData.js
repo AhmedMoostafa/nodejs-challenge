@@ -1,7 +1,8 @@
 var request = require("request-promise");
 
 const bikesUrl = process.env.BIKES_URL;
-const weatherUrl = process.env.WEATHER_URL;
+const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=philadelphia&units=metric&appid=${process.env.APPID}`;
+
 exports.getBikes = () => {
   return new Promise((resolve, reject) => {
     request({
