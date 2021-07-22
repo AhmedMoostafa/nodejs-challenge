@@ -6,8 +6,7 @@
   "scripts": {
     "start": "node app.js",
     "test":"mocha",
-    "dev": "env-cmd ./config/dev.env nodemon app.js",
-    "build": "node script/send_data.js"
+    "dev": "env-cmd ./config/dev.env nodemon app.js"
   },
   "keywords": [],
   "author": "",
