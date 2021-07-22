@@ -9,6 +9,11 @@
 - lodash
 - bluebird
 
+## database structure
+
+
+![Capture](https://user-images.githubusercontent.com/57231433/126622527-27929b24-61f7-44c1-a065-9e14ac02ef41.PNG)
+
 to run 
 ```sh
 npm start
